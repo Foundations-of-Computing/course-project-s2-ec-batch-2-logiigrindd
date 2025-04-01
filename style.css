@@ -1,0 +1,155 @@
+.image{
+    height: 25%;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+
+body{
+    background-image:  url("./bg1.jpg");
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    color: rgb(222, 222, 222);
+    background-color: rgba(31, 29, 24, 0.526);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main{
+    margin-top: 5%;
+}
+
+h2{
+    color:rgb(222, 222, 222);
+}
+#ki{
+    color:rgba(195, 201, 218, 0.981);
+    background-color: rgba(57, 57, 56, 0.744);
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 0 150px 0 150px;
+    font-size:xx-large;
+
+
+}
+
+/*button effects when hovered*/
+.p{
+    display: inline-block;  
+    background-color: #fffefe;
+    border: none;
+    color: #063962;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 12px;
+}
+.p span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .p span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .p:hover span {
+    padding-right: 25px;
+  }
+  
+  .p:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .p:hover {
+    background-color: #042d4e;
+    color: #fffefe;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  }
+
+
+.indx {
+    display: inline-block;  
+    background-color: #fffefe;
+    border: none;
+    color: #063962;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 12px;
+  }
+  
+  .indx span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .indx span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .indx:hover span {
+    padding-right: 25px;
+  }
+  
+  .indx:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .indx:hover {
+    background-color: #042d4e;
+    color: #fffefe;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24)
+    
+  }
+
+  img:hover{
+    transform: translateY(-10px);
+  }
+
+  div p{
+    color: #fffefe;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
